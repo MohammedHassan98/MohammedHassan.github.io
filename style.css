@@ -1,0 +1,58 @@
+* {
+  background-color: black;
+  font-family: "Century-Gothic";
+  color: white;
+}
+body {
+    background-color: black !important;
+}
+@font-face {
+  font-family: "Century-Gothic";
+  src: local("Century-Gothic"),
+    url(./assets/Fonts/Century\ Gothic\ 400.ttf) format("truetype");
+}
+
+img {
+  width: 90%;
+  height: 90%;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+.questionText {
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.textDiv {
+  margin-top: 70px;
+  font-weight: bolder;
+}
+
+.link {
+  color: lightsalmon;
+  text-decoration: none;
+}
+
+.link:link {
+  color: salmon;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      font-size: 10px;
+    }
+    [class*="col-"] {
+        width: 100%;
+      }
+  }
